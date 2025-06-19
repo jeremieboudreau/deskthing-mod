@@ -4,8 +4,7 @@ import { Icon, IconProps } from '.'
 function IconFastForward(props: IconProps): JSX.Element {
 
   return <Icon {...props}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 394.941 394.941"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M185.492,211.636v109.588l209.449-123.747L185.492,73.718v109.611L0,73.718v247.506L185.492,211.636 z"></path> </g> </g></svg>
-  </Icon>
+  <svg width="330" height="330" fill="none" xmlns="http://www.w3.org/2000/svg"> <mask id="a" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="330" height="330"> <path fill="#D9D9D9" d="M0 0h330v330H0z"/> </mask> <g mask="url(#a)"> <path d="M226.875 247.5v-165h27.5v165h-27.5Zm-151.25 0v-165l123.75 82.5-123.75 82.5Z" fill="#fff"/> </g></svg>  </Icon>
 }
 
 export default IconFastForward
